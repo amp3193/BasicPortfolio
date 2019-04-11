@@ -11,41 +11,52 @@
 
 <body>
     <div class="header">
-        <h1>Anna Perkins</h1>
-        <div class="topNav">
-            <a href="#About">About</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Contact">Contact</a>
-        </div>
+            <h1 id="header-name">Anna Perkins</h1>
+            <ul class="topNav">
+                <li><a href="./index.html">About</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <p style="clear:both"></p>
     </div>
 
-    <div class="portfolio_content">
-        <h2>Portfolio</h2>
+    <div class="wrapper">
 
-        <div id="pic1">
-            <img src="assets/images/hangman.jpg" alt="Hang Man">
-            <button class="btn">Hang Man</button>
-        </div>
+    <div class="main_content">
+        <h2 id="about">Portfolio</h2>
+        <div class="row"> 
+            <div class="column">
+                <div class="pic1">
+                    <img src="assets/images/hangman.jpg" alt="Hang Man">
+                    <button class="btn">Hang Man</button>
+                </div>
 
-        <div id="pic2">
-            <img src="assets/images/rpg.jpg" alt="RPG Game">
-            <button class="btn">RPG Game</button>
-        </div>
+                <div class="pic3">
+                    <img src="assets/images/trivia.jpg" alt="Trivia">
+                    <button class="btn">Trivia</button>
+                </div>
 
-        <div id="pic3">
-            <img src="assets/images/trivia.jpg" alt="Trivia">
-            <button class="btn">Trivia</button>
+                <div class="pic5">
+                    <img src="assets/images/rock,_paper_larger.jpg" alt="Rock Paper Sissors">
+                    <button class="btn">Rock Paper Sissors</button>
+                </div>
+            </div>   
+ 
+            <div class="column">        
+                <div class="pic2">
+                    <img src="assets/images/rpg.jpg" alt="RPG Game">
+                    <button class="btn">RPG Game</button>
+                </div>
+        
+                <div class="pic4">
+                    <img src="assets/images/widget.jpg" alt="Info Widget">
+                    <button class="btn">Info Widget</button>
+                </div>
+            </div>
         </div>
-
-        <div id="pic4">
-            <img src="assets/images/widget.jpg" alt="Info Widget">
-            <button class="btn">Info Widget</button>
-        </div>
-
-        <div id="pic5">
-            <img src="assets/images/rock,_paper_larger.jpg" alt="Rock Paper Sissors">
-            <button class="btn">Rock Paper Sissors</button>
-        </div>
+    </div>
+    
+        <p style="clear:both"></p> 
 
         <div class="footer">
             <p>Copyright @ 2019</p>

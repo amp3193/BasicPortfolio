@@ -6,7 +6,8 @@ body {
     background-color: whitesmoke;
     width: 100%;
     margin: 0 auto;
-    border-bottom: 2px solid #777777;
+    border-bottom: 1px solid #777777;
+    padding: 0px;
 }
 
 #header-name {
@@ -42,16 +43,21 @@ a {
     display: table;
 }
 
+.wrapper {
+    width: 960px;
+    margin: auto;
+ }
+
 .main_content {
     background-color: whitesmoke;
     width: 960px;
     padding: 20px;
 }
 
-#about-me {
+#about {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid #777777;
+    border-bottom: 1px solid #777777;
 }
 #picture {
     width: 200px;
@@ -63,6 +69,7 @@ a {
 #text-body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    line-height: 50px;
 }
 
 .clearfix::after {
@@ -71,12 +78,18 @@ a {
     display: table;
 }
 
-#pic1, #pic2, #pic3, #pic4, #pic5 {
-    width: 200px;
-    height: 200px;
-}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
 
-
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .footer {
     background-color: #666666;
@@ -86,4 +99,5 @@ a {
     text-align: center;
     height: 20%;
     padding: 20px;
+    left: 0px;
 }
