@@ -5,34 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
+    <div class="header-wrapper">
+        <div class="header">
             <h1 id="header-name">Anna Perkins</h1>
             <ul class="topNav">
                 <li><a href="./index.html">About</a></li>
                 <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <p style="clear:both"></p>
+        </div>
+        <p style="clear:both"></p>
     </div>
 
-    <div class="wrapper">
+    <div class="body-wrapper">
         <div class="main_content">
             <h2 id="about">Contact</h2>
-        
-            <p>Name</p>
-            <input type="text" id="name" placeholder="Enter Your Name">
-        
-            <p>Email</p>
-            <input type="text" id="Email" placeholder="Enter Your Email">
-        
-            <p>Message</p>
-            <input type="text" id="message" placeholder="Leave a Message">
-        
+
+            <div class="ctext">Name</div>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <div class="ctext">Email</div>
+            <input type="text" id="email" placeholder="Enter your email">
+
+            <div class="ctext">Message</div>
+           
+            <textarea rows="10" placeholder="Leave a message"></textarea>
             <button class="submit-btn">Submit</button>
         </div>
     </div>
